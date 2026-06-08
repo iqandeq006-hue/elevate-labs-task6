@@ -24,10 +24,10 @@ It contains 527 software requirements with columns: Type, Description, Type_enco
 ### Best KNN Model Results
 | Metric | Value |
 |--------|-------|
-| Best K | _fill after running_ |
-| Train Accuracy | _fill after running_ |
-| Test Accuracy | _fill after running_ |
-| CV Mean (5-fold) | _fill after running_ |
+| Best K | 15 |
+| Train Accuracy | 0.6604 |
+| Test Accuracy | 0.6981 |
+| CV Mean (5-fold) | 0.5635 ± 0.0660 |
 
 ### Confusion Matrix
 - Generated for the best K to show True Positives, True Negatives, False Positives, and False Negatives
@@ -44,9 +44,9 @@ It contains 527 software requirements with columns: Type, Description, Type_enco
 
 | Distance Metric | Test Accuracy |
 |-----------------|---------------|
-| Euclidean | _fill after running_ |
-| Manhattan | _fill after running_ |
-| Chebyshev | _fill after running_ |
+| Euclidean | 0.6981 |
+| Manhattan | 0.6981 |
+| Chebyshev | 0.6887 |
 
 ### Cross-Validation
 - Used 5-fold CV to get a more reliable accuracy estimate than a single train/test split
